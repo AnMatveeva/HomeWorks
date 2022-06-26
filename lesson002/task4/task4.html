@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html leng=en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link href="styles/5style.css" rel="stylesheet" >
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <legend><h2>Personal infomation</h2></legend>
+            <p>
+                <label for="first name"><b>*First name:</b></label>
+                <input type="text" name="first name" id="first name" required />
+            </p>
+            <p>
+                <label for="middle name">Middle name:</label>
+                <input type="text" name="middle name" id="middle name" required />
+            </p>
+            <p>
+                <label for="last name"><b>*Last name:</b></label>
+                <input type="text" name="last name" id="last name" required />
+            </p>
+            </fieldset>
+            <fieldset>
+            <legend><h2>Address</h2></legend>
+            <p>
+                <label form="address">Address:</label>
+                <input type="text" name="address" id="address" required />
+            </p>
+            <p>
+                <label form="city">City of Town:</label>
+                <input type="text" name="city" id="city" required />
+            </p>
+            <p>
+                <label fotm="state">State:</label>
+                <select id="state" name="state">
+                    <option disabled selected>Choose a State</option>
+                    <optgroup label="Belarus">
+                    <option value="minsk">Minsk</option>
+                    <option value="gomel">Gomel</option>
+                    <option value="brest">Brest</option>
+                </optgroup>
+                <optgroup label="Russia">
+                    <option value="moscow">Moscow</option>
+                    <option value="saint-peterburg">Saint-Peterburg</option>
+                    <option value="krasnodar">Krasnodar</option>
+                </optgroup>
+                </select>
+            </p>
+            <p>
+                <label form="zip code"><b>*Zip code:</b></label>
+                <input type="number" max="20" name="zip code" id="zip code" required />
+            </p>
+            </fieldset>
+            <p>
+            <input type="submit" value="Continue">
+            </p>
+        </form>
+    </body>
+    </html>

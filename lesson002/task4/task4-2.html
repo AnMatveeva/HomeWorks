@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html leng=en">
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="/bootstrap-4.4.1-dist/css/bootstrap.css" type="text/css" media="all">
+        <style>
+            body {
+                background: #00b4ef;
+            }
+            .container {
+                position: absolute;
+                width: 350px;
+                top: 25%;
+                left: 35%;
+                bottom: 45%;
+                text-align: center;
+                background: linear-gradient(#ffffff,#d3d3d3);
+                border-radius: 1%;
+                
+            }
+            p {
+                padding-top: 25%;
+                padding-right: 7%;
+                text-align: center;
+                font-size: 13px;
+              
+            }
+            a {
+                color: rgb(0, 20, 167);
+            }
+            .card-header {
+                position: relative;
+                width: 350px;
+                height: 55px;
+                right: 15px;
+                background: linear-gradient(#ffffff,#d3d3d3);
+            }
+           div {
+            top: 15px;
+           }
+           .form-check-label{
+          padding-top: 20px;
+           }
+           form{
+                outline: 7px solid rgba(0, 0, 0, 0.058);
+           }
+        </style>
+    </head>
+    <body>
+        <form class="container">
+            
+            <header class="card-header">
+            <h6 class="card-title mt-2"><b>Login to Web App</b></h6>
+            </header>
+                    <div class="form-group col-md-12">
+                        <label for="email" class="sr-only">Username or Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Username or Email" required="" autofocus="">
+                    </div>
+                <div class="form-group col-md-12">
+                    <label for="password" class="sr-only">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" required>
+                </div>
+                <label class="form-check-label">
+                    <input class="input1" type="checkbox">Remember me on this computer</label>
+                    <button type="submit" class="btn btn-outline-info">Login</button>
+                </form>
+                <p class="mt-5 mb-3 text-muted"><b>Forgot your password?</b> <a href="#">Click here to reset it.</a></p>
+    </body>
+    </html>

@@ -1,0 +1,43 @@
+#header1, #header2, #header3, #col1, #col2, #col3 {
+    width: 250px;
+    border: 1px solid black;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    color: white;
+    position:absolute;
+    top: 30px;
+}
+#col1, #col2, #col3 {
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: black;
+    top: 60px;
+    line-height: 7px;  
+}
+#header1{
+    left: 20px;
+    background: #B38541;
+}
+#header2{
+    left: 300px;
+    background: #008159;
+}
+#header3{
+    left: 580px;
+    background: #006077;
+}
+#col1{
+    left: 20px;
+    background: #EBE0C5;
+}
+#col2{
+    left: 300px;
+    background: #BBE1C4;
+}
+#col3{
+    left: 580px;
+    background: #ADD0D9;
+}

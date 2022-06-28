@@ -1,43 +1,44 @@
-#header1, #header2, #header3, #col1, #col2, #col3 {
-    width: 250px;
+#header1, #header2, #header3, #col-1, #col-2, #col-3 {
+    width: 30%;
     border: 1px solid black;
-    padding: 5px;
+    padding: 0.5%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 80%;
     color: white;
     position:absolute;
-    top: 30px;
+    top: 2%;
+    
 }
-#col1, #col2, #col3 {
-    height: 200px;
+#col-1, #col-2, #col-3 {
+    height: 90%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 100%;
     color: black;
-    top: 60px;
+    top: 7%;
     line-height: 7px;  
 }
 #header1{
-    left: 20px;
+    left: 1.5%;
     background: #B38541;
 }
 #header2{
-    left: 300px;
+    left: 34.8%;
     background: #008159;
 }
 #header3{
-    left: 580px;
+    left: 68%;
     background: #006077;
 }
-#col1{
-    left: 20px;
+#col-1{
+    left: 1.5%;
     background: #EBE0C5;
 }
-#col2{
-    left: 300px;
+#col-2{
+    left: 34.8%;
     background: #BBE1C4;
 }
-#col3{
-    left: 580px;
+#col-3{
+    left: 68%;
     background: #ADD0D9;
 }

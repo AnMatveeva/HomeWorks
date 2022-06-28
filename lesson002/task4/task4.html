@@ -7,8 +7,11 @@
     </head>
     <body>
         <form>
-            <fieldset>
-            <legend><h2>Personal infomation</h2></legend>
+            <div class="custom-line">
+                <div class="custom-text">
+            <legend>Personal infomation</legend>
+                </div>
+            </div>
             <p>
                 <label for="first name"><b>*First name:</b></label>
                 <input type="text" name="first name" id="first name" required />
@@ -21,9 +24,11 @@
                 <label for="last name"><b>*Last name:</b></label>
                 <input type="text" name="last name" id="last name" required />
             </p>
-            </fieldset>
-            <fieldset>
-            <legend><h2>Address</h2></legend>
+            <div class="custom-line-2">
+                <div class="custom-text-2">
+            <legend>Address</legend>
+                </div>
+            </div>
             <p>
                 <label form="address">Address:</label>
                 <input type="text" name="address" id="address" required />
@@ -52,8 +57,8 @@
                 <label form="zip code"><b>*Zip code:</b></label>
                 <input type="number" max="20" name="zip code" id="zip code" required />
             </p>
-            </fieldset>
-            <p>
+           
+            <p class="button">
             <input type="submit" value="Continue">
             </p>
         </form>

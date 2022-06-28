@@ -1,0 +1,59 @@
+a:link {
+    color: #497DDD;
+}
+a:visited {
+    color:#EF7D55;
+}
+a:hover {
+    color: #154088;
+}
+a:active {
+    color: #497DDD;
+}
+.p1:first-child {
+    background-color: coral;
+}
+.p1:last-child {
+    background-color: rgb(255, 203, 203);
+}
+:empty {
+    background-color: rgb(180, 20, 220);
+}
+td {
+    width:150px;
+}
+.par1:first-of-type {
+    background: rgb(61, 0, 165);
+}
+.par1:last-of-type {
+    background: green;
+}
+.p2:only-of-type {
+    border: 10px double greenyellow;
+    background: white;
+}
+.p3::after {
+    content: ' кто-то';
+}
+.p4::before {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: rosybrown;
+    margin-right: 10px;
+}
+.p5::first-letter {
+    font-size: 18pt;
+    color: rgb(255, 2, 209);
+}
+.p6::first-line {
+    color:darkred;
+}
+.div1{
+    font-size: 14pt;
+}
+.select::selection {
+    background-color: black;
+    color: yellow;
+}

@@ -1,0 +1,44 @@
+#header1, #header2, #header3, #col-1, #col-2, #col-3 {
+    width: 30%;
+    border: 1px solid black;
+    padding: 0.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    color: white;
+    position:absolute;
+    top: 2%;
+    
+}
+#col-1, #col-2, #col-3 {
+    height: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: black;
+    top: 7%;
+    line-height: 7px;  
+}
+#header1{
+    left: 1.5%;
+    background: #B38541;
+}
+#header2{
+    left: 34.8%;
+    background: #008159;
+}
+#header3{
+    left: 68%;
+    background: #006077;
+}
+#col-1{
+    left: 1.5%;
+    background: #EBE0C5;
+}
+#col-2{
+    left: 34.8%;
+    background: #BBE1C4;
+}
+#col-3{
+    left: 68%;
+    background: #ADD0D9;
+}
